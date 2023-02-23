@@ -1,0 +1,53 @@
+{
+  "reqMsgDownload_get_correct": {
+    "version": 1,
+    "type": 0,
+    "tkn_length": 1,
+    "code_class": 0,
+    "code_details": 1,
+    "msg_id": 10,
+    "token": 5,
+    "options": {
+      "8": "file.txt"
+    },
+    "op_code": 1,
+    "ord_no": 0,
+    "oper_param": null
+  },
+  "reqMsgDownload_invalid_version": {
+    "version": 2
+  },
+  "reqMsgDownload_invalid_type": {
+    "type": 4
+  },
+  "reqMsgDownload_invalid_tkn_length": {
+    "tkn_length": 9
+  },
+  "reqMsgDownload_invalid_code_class": {
+    "code_class": 2
+  },
+  "reqMsgDownload_invalid_code_details": {
+    "code_details": 2
+  },
+  "reqMsgDownload_invalid_msg_id": {
+    "msg_id": null
+  },
+  "reqMsgDownload_invalid_token": {
+    "token": null
+  },
+  "reqMsgDownload_invalid_op_code": {
+    "op_code": 2
+  },
+  "reqMsgDownload_invalid_ord_no": {
+    "ord_no": 3
+  },
+  "reqMsgDownload_invalid_oper_param": {
+    "oper_param": "this is info"
+  },
+  "reqMsgDownload_invalid_options": {
+    "options": {
+      "8": "file.txt",
+      "12": "this_is_option_12_but is not necessary"
+    }
+  }
+}
